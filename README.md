@@ -8,18 +8,7 @@
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/cmliu/socks5-for-serv00/main/install-socks5.sh)
 ```
-----
-### ~pm2模式~
-- ~一键安装~
 
-~`bash <(curl -s https://raw.githubusercontent.com/cmliu/socks5-for-serv00/pm2/install-socks5.sh)`~
-
-
-- 一键卸载pm2
-```bash
-pm2 unstartup && pm2 delete all && npm uninstall -g pm2
-```
-----
 ## Github Actions保活
 添加 Secrets.`ACCOUNTS_JSON` 变量
 ```json
@@ -30,5 +19,3 @@ pm2 unstartup && pm2 delete all && npm uninstall -g pm2
 ]
 ```
 
-# 致谢
-[RealNeoMan](https://github.com/Neomanbeta/ct8socks)、[k0baya](https://github.com/k0baya/nezha4serv00)、[eooce](https://github.com/eooce)
